@@ -1,0 +1,169 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="@string/MathQuiz"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="@string/name"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/Question1" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_700"
+                android:onClick="Question1"
+                android:id="@+id/A1"
+                android:textSize="30sp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_666"
+                android:textSize="30sp"
+                android:id="@+id/B1"
+                android:onClick="Question1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:onClick="Question1"
+                android:id="@+id/C1"
+                android:text="@string/c_10"/>
+        </RadioGroup>
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/Question2" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_375"
+                android:textSize="30sp"
+                android:onClick="Question2"
+                android:id="@+id/A2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:onClick="Question2"
+                android:id="@+id/B2"
+                android:text="@string/b_57"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:onClick="Question2"
+                android:id="@+id/C2"
+                android:text="@string/c_376"/>
+        </RadioGroup>
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/Question3" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:onClick="Question3"
+                android:id="@+id/A3"
+                android:text="@string/a_2500"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:onClick="Question3"
+                android:id="@+id/B3"
+                android:text="@string/b_505"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_none_of_these"
+                android:textSize="30sp"
+                android:onClick="Question3"
+                android:id="@+id/C3"/>
+        </RadioGroup>
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/Question4" />
+
+        <EditText
+            android:id="@+id/Question4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="Answer"
+            android:hint="@string/answer"
+            android:inputType="text"
+            android:textSize="24sp" />
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/Question5" />
+
+        <CheckBox android:id="@+id/A5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3"
+            android:onClick="Question5"/>
+        <CheckBox android:id="@+id/B5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_n3"
+            android:onClick="Question5"/>
+        <CheckBox android:id="@+id/C5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none_of_these"
+            android:onClick="Question5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:onClick="SubmitQuiz"
+            android:text="@string/SubmitQuiz"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+</ScrollView>

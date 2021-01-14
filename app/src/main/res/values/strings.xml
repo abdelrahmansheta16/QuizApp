@@ -1,0 +1,36 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz APP</string>
+    <string name="name">Name</string>
+    <string name="MathQuiz">Math Quiz</string>
+    <string name="Question1">Question 1. Find the sum of 111 + 222 + 333</string>
+    <string name="Question2">Question 2. Subtract 457 from 832</string>
+    <string name="Question3">Question 3. 50 times 5 is equal to</string>
+    <string name="Question4">Question 4. 90 ÷ 10</string>
+    <string name="Question5">Question 5. Find x: \nx^2 = 9</string>
+    <string name="Question6">Question 6. Find the product of 72 × 3</string>
+    <string name="SubmitQuiz">Submit Quiz</string>
+    <string name="submit_quiz_name">Congratulations! <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="quiz_score">You have scored <xliff:g id="score" example="3">%d</xliff:g></string>
+    <string name="c_106">C. 106</string>
+    <string name="b_666">B. 666</string>
+    <string name="a_700">A. 700</string>
+    <string name="a_2500">A. 2500</string>
+    <string name="c_376">C. 376</string>
+    <string name="b_57">B. 57</string>
+    <string name="a_375">A. 375</string>
+    <string name="c_10">C_10</string>
+    <string name="b_505">B. 505</string>
+    <string name="d_none_of_these">C. None of these</string>
+    <string name="a_9">A. 9</string>
+    <string name="b_10">B. 10</string>
+    <string name="a_0">A. 0</string>
+    <string name="b_32">B. 32</string>
+    <string name="d_46">C. 46</string>
+    <string name="a_216">A. 216</string>
+    <string name="b_7230">B. 7230</string>
+    <string name="c_900">C. 900</string>
+    <string name="answer">Answer</string>
+    <string name="_3">3</string>
+    <string name="_n3">-3</string>
+    <string name="none_of_these">None Of These</string>
+</resources>

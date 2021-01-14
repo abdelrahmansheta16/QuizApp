@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"التطبيق مسابقة "</string>
+    <string name="name">الاسم</string>
+    <string name="MathQuiz">اختبار رياضيات</string>
+    <string name="Question1">السؤال الأول: أوجد مجموع 111 + 222 + 333</string>
+    <string name="Question2">السؤال 2. اطرح 457 من 832</string>
+    <string name="Question3">السؤال 3. 50 ضرب 5 يساوي</string>
+    <string name="Question4">السؤال 4. 90 ÷ 10</string>
+    <string name="Question5">السؤال 5. بسّط: 26 + 32 - 12</string>
+    <string name="Question6">السؤال 6. أوجد حاصل ضرب 72 × 3</string>
+    <string name="SubmitQuiz">سلم الاختبار</string>
+    <string name="submit_quiz_name">"تهانينا <xliff:g id="name" example="Amy">%s</xliff:g> "</string>
+    <string name="quiz_score">"مجموع النقاط  <xliff:g id="price" example="3">%d</xliff:g> "</string>
+</resources>
